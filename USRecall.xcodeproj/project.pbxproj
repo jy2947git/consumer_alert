@@ -42,17 +42,7 @@
 		AC7E8BCA102786750030598D /* Movie.m4v in Resources */ = {isa = PBXBuildFile; fileRef = AC7E8BC9102786750030598D /* Movie.m4v */; };
 		AC8E52B7100ED3B6006E88D1 /* NHTSA-C-example.png in Resources */ = {isa = PBXBuildFile; fileRef = AC8E52B6100ED3B6006E88D1 /* NHTSA-C-example.png */; };
 		AC91E96510181C9E00B9412D /* Icon.png1 in Resources */ = {isa = PBXBuildFile; fileRef = AC91E96410181C9E00B9412D /* Icon.png1 */; };
-		AC926D3D100E453C00CA5BAA /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AC926D2D100E453C00CA5BAA /* CXMLNode_XPathExtensions.m */; };
-		AC926D3E100E453C00CA5BAA /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AC926D2F100E453C00CA5BAA /* CXMLNode_PrivateExtensions.m */; };
-		AC926D3F100E453C00CA5BAA /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AC926D31100E453C00CA5BAA /* CXMLNode.m */; };
-		AC926D40100E453C00CA5BAA /* CXMLElement_ElementTreeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AC926D33100E453C00CA5BAA /* CXMLElement_ElementTreeExtensions.m */; };
-		AC926D41100E453C00CA5BAA /* CXMLElement_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AC926D35100E453C00CA5BAA /* CXMLElement_CreationExtensions.m */; };
-		AC926D42100E453C00CA5BAA /* CXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = AC926D37100E453C00CA5BAA /* CXMLElement.m */; };
-		AC926D43100E453C00CA5BAA /* CXMLDocument_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AC926D39100E453C00CA5BAA /* CXMLDocument_PrivateExtensions.m */; };
-		AC926D44100E453C00CA5BAA /* CXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = AC926D3B100E453C00CA5BAA /* CXMLDocument.m */; };
 		AC926D48100E457600CA5BAA /* MyRssReader.m in Sources */ = {isa = PBXBuildFile; fileRef = AC926D47100E457600CA5BAA /* MyRssReader.m */; };
-		AC926D58100E467500CA5BAA /* CXMLDocument_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AC926D54100E467500CA5BAA /* CXMLDocument_CreationExtensions.m */; };
-		AC926D59100E467500CA5BAA /* CXMLNode_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AC926D56100E467500CA5BAA /* CXMLNode_CreationExtensions.m */; };
 		AC926DA2100E4D4400CA5BAA /* AbstractBaseRssTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC926DA1100E4D4400CA5BAA /* AbstractBaseRssTableViewController.m */; };
 		AC926DD8100E502000CA5BAA /* GlobalConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = AC926DD4100E502000CA5BAA /* GlobalConfiguration.m */; };
 		AC926DD9100E502000CA5BAA /* DebugLog.m in Sources */ = {isa = PBXBuildFile; fileRef = AC926DD6100E502000CA5BAA /* DebugLog.m */; };
@@ -60,6 +50,18 @@
 		AC926F84100E6F6000CA5BAA /* MoneyInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC926F83100E6F6000CA5BAA /* MoneyInformationViewController.m */; };
 		AC926F87100E6F9A00CA5BAA /* RecallListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC926F86100E6F9A00CA5BAA /* RecallListViewController.m */; };
 		AC92702E100E7C0C00CA5BAA /* BaseItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC92702C100E7C0C00CA5BAA /* BaseItemDetailViewController.m */; };
+		AD3B4425125B7ABD00875655 /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3B4413125B7ABC00875655 /* CXMLNode.m */; };
+		AD3B4426125B7ABD00875655 /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3B4415125B7ABC00875655 /* CXMLNode_XPathExtensions.m */; };
+		AD3B4427125B7ABD00875655 /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3B4417125B7ABC00875655 /* CXMLNode_PrivateExtensions.m */; };
+		AD3B4428125B7ABD00875655 /* CXMLNamespaceNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3B4419125B7ABC00875655 /* CXMLNamespaceNode.m */; };
+		AD3B4429125B7ABD00875655 /* CXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3B441B125B7ABC00875655 /* CXMLElement.m */; };
+		AD3B442A125B7ABD00875655 /* CXMLElement_ElementTreeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3B441D125B7ABC00875655 /* CXMLElement_ElementTreeExtensions.m */; };
+		AD3B442B125B7ABD00875655 /* CXMLElement_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3B441F125B7ABC00875655 /* CXMLElement_CreationExtensions.m */; };
+		AD3B442C125B7ABD00875655 /* CXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3B4421125B7ABD00875655 /* CXMLDocument.m */; };
+		AD3B442D125B7ABD00875655 /* CXMLDocument_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3B4423125B7ABD00875655 /* CXMLDocument_PrivateExtensions.m */; };
+		AD3B4437125B7AEA00875655 /* CXMLNode_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3B4433125B7AEA00875655 /* CXMLNode_CreationExtensions.m */; };
+		AD3B4438125B7AEA00875655 /* CXMLDocument_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3B4435125B7AEA00875655 /* CXMLDocument_CreationExtensions.m */; };
+		AD3B443B125B7AF900875655 /* CTidy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3B4439125B7AF900875655 /* CTidy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -107,29 +109,8 @@
 		AC7E8BC9102786750030598D /* Movie.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = Movie.m4v; sourceTree = "<group>"; };
 		AC8E52B6100ED3B6006E88D1 /* NHTSA-C-example.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NHTSA-C-example.png"; sourceTree = "<group>"; };
 		AC91E96410181C9E00B9412D /* Icon.png1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Icon.png1; sourceTree = "<group>"; };
-		AC926D2C100E453C00CA5BAA /* TouchXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TouchXML.h; path = ../extra_library/TouchXML_1.0.6_Release/TouchXML/Common/Source/TouchXML.h; sourceTree = SOURCE_ROOT; };
-		AC926D2D100E453C00CA5BAA /* CXMLNode_XPathExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLNode_XPathExtensions.m; path = ../extra_library/TouchXML_1.0.6_Release/TouchXML/Common/Source/CXMLNode_XPathExtensions.m; sourceTree = SOURCE_ROOT; };
-		AC926D2E100E453C00CA5BAA /* CXMLNode_XPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLNode_XPathExtensions.h; path = ../extra_library/TouchXML_1.0.6_Release/TouchXML/Common/Source/CXMLNode_XPathExtensions.h; sourceTree = SOURCE_ROOT; };
-		AC926D2F100E453C00CA5BAA /* CXMLNode_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLNode_PrivateExtensions.m; path = ../extra_library/TouchXML_1.0.6_Release/TouchXML/Common/Source/CXMLNode_PrivateExtensions.m; sourceTree = SOURCE_ROOT; };
-		AC926D30100E453C00CA5BAA /* CXMLNode_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLNode_PrivateExtensions.h; path = ../extra_library/TouchXML_1.0.6_Release/TouchXML/Common/Source/CXMLNode_PrivateExtensions.h; sourceTree = SOURCE_ROOT; };
-		AC926D31100E453C00CA5BAA /* CXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLNode.m; path = ../extra_library/TouchXML_1.0.6_Release/TouchXML/Common/Source/CXMLNode.m; sourceTree = SOURCE_ROOT; };
-		AC926D32100E453C00CA5BAA /* CXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLNode.h; path = ../extra_library/TouchXML_1.0.6_Release/TouchXML/Common/Source/CXMLNode.h; sourceTree = SOURCE_ROOT; };
-		AC926D33100E453C00CA5BAA /* CXMLElement_ElementTreeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLElement_ElementTreeExtensions.m; path = ../extra_library/TouchXML_1.0.6_Release/TouchXML/Common/Source/CXMLElement_ElementTreeExtensions.m; sourceTree = SOURCE_ROOT; };
-		AC926D34100E453C00CA5BAA /* CXMLElement_ElementTreeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLElement_ElementTreeExtensions.h; path = ../extra_library/TouchXML_1.0.6_Release/TouchXML/Common/Source/CXMLElement_ElementTreeExtensions.h; sourceTree = SOURCE_ROOT; };
-		AC926D35100E453C00CA5BAA /* CXMLElement_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLElement_CreationExtensions.m; path = ../extra_library/TouchXML_1.0.6_Release/TouchXML/Common/Source/CXMLElement_CreationExtensions.m; sourceTree = SOURCE_ROOT; };
-		AC926D36100E453C00CA5BAA /* CXMLElement_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLElement_CreationExtensions.h; path = ../extra_library/TouchXML_1.0.6_Release/TouchXML/Common/Source/CXMLElement_CreationExtensions.h; sourceTree = SOURCE_ROOT; };
-		AC926D37100E453C00CA5BAA /* CXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLElement.m; path = ../extra_library/TouchXML_1.0.6_Release/TouchXML/Common/Source/CXMLElement.m; sourceTree = SOURCE_ROOT; };
-		AC926D38100E453C00CA5BAA /* CXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLElement.h; path = ../extra_library/TouchXML_1.0.6_Release/TouchXML/Common/Source/CXMLElement.h; sourceTree = SOURCE_ROOT; };
-		AC926D39100E453C00CA5BAA /* CXMLDocument_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLDocument_PrivateExtensions.m; path = ../extra_library/TouchXML_1.0.6_Release/TouchXML/Common/Source/CXMLDocument_PrivateExtensions.m; sourceTree = SOURCE_ROOT; };
-		AC926D3A100E453C00CA5BAA /* CXMLDocument_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLDocument_PrivateExtensions.h; path = ../extra_library/TouchXML_1.0.6_Release/TouchXML/Common/Source/CXMLDocument_PrivateExtensions.h; sourceTree = SOURCE_ROOT; };
-		AC926D3B100E453C00CA5BAA /* CXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLDocument.m; path = ../extra_library/TouchXML_1.0.6_Release/TouchXML/Common/Source/CXMLDocument.m; sourceTree = SOURCE_ROOT; };
-		AC926D3C100E453C00CA5BAA /* CXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLDocument.h; path = ../extra_library/TouchXML_1.0.6_Release/TouchXML/Common/Source/CXMLDocument.h; sourceTree = SOURCE_ROOT; };
 		AC926D46100E457600CA5BAA /* MyRssReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyRssReader.h; sourceTree = "<group>"; };
 		AC926D47100E457600CA5BAA /* MyRssReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyRssReader.m; sourceTree = "<group>"; };
-		AC926D53100E467500CA5BAA /* CXMLDocument_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_CreationExtensions.h; sourceTree = "<group>"; };
-		AC926D54100E467500CA5BAA /* CXMLDocument_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_CreationExtensions.m; sourceTree = "<group>"; };
-		AC926D55100E467500CA5BAA /* CXMLNode_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_CreationExtensions.h; sourceTree = "<group>"; };
-		AC926D56100E467500CA5BAA /* CXMLNode_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_CreationExtensions.m; sourceTree = "<group>"; };
 		AC926DA0100E4D4400CA5BAA /* AbstractBaseRssTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractBaseRssTableViewController.h; sourceTree = "<group>"; };
 		AC926DA1100E4D4400CA5BAA /* AbstractBaseRssTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractBaseRssTableViewController.m; sourceTree = "<group>"; };
 		AC926DD3100E502000CA5BAA /* GlobalHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalHeader.h; sourceTree = "<group>"; };
@@ -145,6 +126,31 @@
 		AC926F86100E6F9A00CA5BAA /* RecallListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecallListViewController.m; sourceTree = "<group>"; };
 		AC92702B100E7C0C00CA5BAA /* BaseItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseItemDetailViewController.h; sourceTree = "<group>"; };
 		AC92702C100E7C0C00CA5BAA /* BaseItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseItemDetailViewController.m; sourceTree = "<group>"; };
+		AD3B4412125B7A9300875655 /* TouchXML.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchXML.h; sourceTree = "<group>"; };
+		AD3B4413125B7ABC00875655 /* CXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode.m; sourceTree = "<group>"; };
+		AD3B4414125B7ABC00875655 /* CXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode.h; sourceTree = "<group>"; };
+		AD3B4415125B7ABC00875655 /* CXMLNode_XPathExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_XPathExtensions.m; sourceTree = "<group>"; };
+		AD3B4416125B7ABC00875655 /* CXMLNode_XPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_XPathExtensions.h; sourceTree = "<group>"; };
+		AD3B4417125B7ABC00875655 /* CXMLNode_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_PrivateExtensions.m; sourceTree = "<group>"; };
+		AD3B4418125B7ABC00875655 /* CXMLNode_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_PrivateExtensions.h; sourceTree = "<group>"; };
+		AD3B4419125B7ABC00875655 /* CXMLNamespaceNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNamespaceNode.m; sourceTree = "<group>"; };
+		AD3B441A125B7ABC00875655 /* CXMLNamespaceNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNamespaceNode.h; sourceTree = "<group>"; };
+		AD3B441B125B7ABC00875655 /* CXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement.m; sourceTree = "<group>"; };
+		AD3B441C125B7ABC00875655 /* CXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement.h; sourceTree = "<group>"; };
+		AD3B441D125B7ABC00875655 /* CXMLElement_ElementTreeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement_ElementTreeExtensions.m; sourceTree = "<group>"; };
+		AD3B441E125B7ABC00875655 /* CXMLElement_ElementTreeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement_ElementTreeExtensions.h; sourceTree = "<group>"; };
+		AD3B441F125B7ABC00875655 /* CXMLElement_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement_CreationExtensions.m; sourceTree = "<group>"; };
+		AD3B4420125B7ABD00875655 /* CXMLElement_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement_CreationExtensions.h; sourceTree = "<group>"; };
+		AD3B4421125B7ABD00875655 /* CXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument.m; sourceTree = "<group>"; };
+		AD3B4422125B7ABD00875655 /* CXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument.h; sourceTree = "<group>"; };
+		AD3B4423125B7ABD00875655 /* CXMLDocument_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_PrivateExtensions.m; sourceTree = "<group>"; };
+		AD3B4424125B7ABD00875655 /* CXMLDocument_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_PrivateExtensions.h; sourceTree = "<group>"; };
+		AD3B4433125B7AEA00875655 /* CXMLNode_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_CreationExtensions.m; sourceTree = "<group>"; };
+		AD3B4434125B7AEA00875655 /* CXMLNode_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_CreationExtensions.h; sourceTree = "<group>"; };
+		AD3B4435125B7AEA00875655 /* CXMLDocument_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_CreationExtensions.m; sourceTree = "<group>"; };
+		AD3B4436125B7AEA00875655 /* CXMLDocument_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_CreationExtensions.h; sourceTree = "<group>"; };
+		AD3B4439125B7AF900875655 /* CTidy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTidy.m; sourceTree = "<group>"; };
+		AD3B443A125B7AF900875655 /* CTidy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTidy.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,12 +176,12 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				AD3B4411125B7A7E00875655 /* touchXML */,
 				AC7E878A1023473A0030598D /* focaplo-ad */,
 				AC7E872B10233F530030598D /* admob-view */,
 				AC926DD2100E4FFE00CA5BAA /* common */,
 				AC926D82100E4C7100CA5BAA /* viewController */,
 				AC926D45100E455500CA5BAA /* rssReader */,
-				AC926D2B100E44DA00CA5BAA /* touchXml */,
 				1D3623240D0F684500981E51 /* USRecallAppDelegate.h */,
 				1D3623250D0F684500981E51 /* USRecallAppDelegate.m */,
 			);
@@ -294,31 +300,6 @@
 			name = images;
 			sourceTree = "<group>";
 		};
-		AC926D2B100E44DA00CA5BAA /* touchXml */ = {
-			isa = PBXGroup;
-			children = (
-				AC926D52100E467500CA5BAA /* Creation */,
-				AC926D2C100E453C00CA5BAA /* TouchXML.h */,
-				AC926D2D100E453C00CA5BAA /* CXMLNode_XPathExtensions.m */,
-				AC926D2E100E453C00CA5BAA /* CXMLNode_XPathExtensions.h */,
-				AC926D2F100E453C00CA5BAA /* CXMLNode_PrivateExtensions.m */,
-				AC926D30100E453C00CA5BAA /* CXMLNode_PrivateExtensions.h */,
-				AC926D31100E453C00CA5BAA /* CXMLNode.m */,
-				AC926D32100E453C00CA5BAA /* CXMLNode.h */,
-				AC926D33100E453C00CA5BAA /* CXMLElement_ElementTreeExtensions.m */,
-				AC926D34100E453C00CA5BAA /* CXMLElement_ElementTreeExtensions.h */,
-				AC926D35100E453C00CA5BAA /* CXMLElement_CreationExtensions.m */,
-				AC926D36100E453C00CA5BAA /* CXMLElement_CreationExtensions.h */,
-				AC926D37100E453C00CA5BAA /* CXMLElement.m */,
-				AC926D38100E453C00CA5BAA /* CXMLElement.h */,
-				AC926D39100E453C00CA5BAA /* CXMLDocument_PrivateExtensions.m */,
-				AC926D3A100E453C00CA5BAA /* CXMLDocument_PrivateExtensions.h */,
-				AC926D3B100E453C00CA5BAA /* CXMLDocument.m */,
-				AC926D3C100E453C00CA5BAA /* CXMLDocument.h */,
-			);
-			name = touchXml;
-			sourceTree = "<group>";
-		};
 		AC926D45100E455500CA5BAA /* rssReader */ = {
 			isa = PBXGroup;
 			children = (
@@ -327,18 +308,6 @@
 			);
 			name = rssReader;
 			sourceTree = "<group>";
-		};
-		AC926D52100E467500CA5BAA /* Creation */ = {
-			isa = PBXGroup;
-			children = (
-				AC926D53100E467500CA5BAA /* CXMLDocument_CreationExtensions.h */,
-				AC926D54100E467500CA5BAA /* CXMLDocument_CreationExtensions.m */,
-				AC926D55100E467500CA5BAA /* CXMLNode_CreationExtensions.h */,
-				AC926D56100E467500CA5BAA /* CXMLNode_CreationExtensions.m */,
-			);
-			name = Creation;
-			path = ../extra_library/TouchXML_1.0.6_Release/TouchXML/Common/Source/Creation;
-			sourceTree = SOURCE_ROOT;
 		};
 		AC926D82100E4C7100CA5BAA /* viewController */ = {
 			isa = PBXGroup;
@@ -369,6 +338,54 @@
 			name = common;
 			sourceTree = "<group>";
 		};
+		AD3B43DD125B7A1300875655 /* Tidy */ = {
+			isa = PBXGroup;
+			children = (
+				AD3B4439125B7AF900875655 /* CTidy.m */,
+				AD3B443A125B7AF900875655 /* CTidy.h */,
+			);
+			path = Tidy;
+			sourceTree = "<group>";
+		};
+		AD3B43F2125B7A1300875655 /* Creation */ = {
+			isa = PBXGroup;
+			children = (
+				AD3B4433125B7AEA00875655 /* CXMLNode_CreationExtensions.m */,
+				AD3B4434125B7AEA00875655 /* CXMLNode_CreationExtensions.h */,
+				AD3B4435125B7AEA00875655 /* CXMLDocument_CreationExtensions.m */,
+				AD3B4436125B7AEA00875655 /* CXMLDocument_CreationExtensions.h */,
+			);
+			path = Creation;
+			sourceTree = "<group>";
+		};
+		AD3B4411125B7A7E00875655 /* touchXML */ = {
+			isa = PBXGroup;
+			children = (
+				AD3B4413125B7ABC00875655 /* CXMLNode.m */,
+				AD3B4414125B7ABC00875655 /* CXMLNode.h */,
+				AD3B4415125B7ABC00875655 /* CXMLNode_XPathExtensions.m */,
+				AD3B4416125B7ABC00875655 /* CXMLNode_XPathExtensions.h */,
+				AD3B4417125B7ABC00875655 /* CXMLNode_PrivateExtensions.m */,
+				AD3B4418125B7ABC00875655 /* CXMLNode_PrivateExtensions.h */,
+				AD3B4419125B7ABC00875655 /* CXMLNamespaceNode.m */,
+				AD3B441A125B7ABC00875655 /* CXMLNamespaceNode.h */,
+				AD3B441B125B7ABC00875655 /* CXMLElement.m */,
+				AD3B441C125B7ABC00875655 /* CXMLElement.h */,
+				AD3B441D125B7ABC00875655 /* CXMLElement_ElementTreeExtensions.m */,
+				AD3B441E125B7ABC00875655 /* CXMLElement_ElementTreeExtensions.h */,
+				AD3B441F125B7ABC00875655 /* CXMLElement_CreationExtensions.m */,
+				AD3B4420125B7ABD00875655 /* CXMLElement_CreationExtensions.h */,
+				AD3B4421125B7ABD00875655 /* CXMLDocument.m */,
+				AD3B4422125B7ABD00875655 /* CXMLDocument.h */,
+				AD3B4423125B7ABD00875655 /* CXMLDocument_PrivateExtensions.m */,
+				AD3B4424125B7ABD00875655 /* CXMLDocument_PrivateExtensions.h */,
+				AD3B43F2125B7A1300875655 /* Creation */,
+				AD3B43DD125B7A1300875655 /* Tidy */,
+				AD3B4412125B7A9300875655 /* TouchXML.h */,
+			);
+			name = touchXML;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -396,7 +413,14 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "USRecall" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -444,17 +468,7 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* USRecallAppDelegate.m in Sources */,
-				AC926D3D100E453C00CA5BAA /* CXMLNode_XPathExtensions.m in Sources */,
-				AC926D3E100E453C00CA5BAA /* CXMLNode_PrivateExtensions.m in Sources */,
-				AC926D3F100E453C00CA5BAA /* CXMLNode.m in Sources */,
-				AC926D40100E453C00CA5BAA /* CXMLElement_ElementTreeExtensions.m in Sources */,
-				AC926D41100E453C00CA5BAA /* CXMLElement_CreationExtensions.m in Sources */,
-				AC926D42100E453C00CA5BAA /* CXMLElement.m in Sources */,
-				AC926D43100E453C00CA5BAA /* CXMLDocument_PrivateExtensions.m in Sources */,
-				AC926D44100E453C00CA5BAA /* CXMLDocument.m in Sources */,
 				AC926D48100E457600CA5BAA /* MyRssReader.m in Sources */,
-				AC926D58100E467500CA5BAA /* CXMLDocument_CreationExtensions.m in Sources */,
-				AC926D59100E467500CA5BAA /* CXMLNode_CreationExtensions.m in Sources */,
 				AC926DA2100E4D4400CA5BAA /* AbstractBaseRssTableViewController.m in Sources */,
 				AC926DD8100E502000CA5BAA /* GlobalConfiguration.m in Sources */,
 				AC926DD9100E502000CA5BAA /* DebugLog.m in Sources */,
@@ -465,6 +479,18 @@
 				AC7E872E10233F800030598D /* ProgrammaticAdViewController.m in Sources */,
 				AC7E87CA1023D6170030598D /* FocaploAdView.m in Sources */,
 				AC7E891A102634BC0030598D /* FocaploAdViewController.m in Sources */,
+				AD3B4425125B7ABD00875655 /* CXMLNode.m in Sources */,
+				AD3B4426125B7ABD00875655 /* CXMLNode_XPathExtensions.m in Sources */,
+				AD3B4427125B7ABD00875655 /* CXMLNode_PrivateExtensions.m in Sources */,
+				AD3B4428125B7ABD00875655 /* CXMLNamespaceNode.m in Sources */,
+				AD3B4429125B7ABD00875655 /* CXMLElement.m in Sources */,
+				AD3B442A125B7ABD00875655 /* CXMLElement_ElementTreeExtensions.m in Sources */,
+				AD3B442B125B7ABD00875655 /* CXMLElement_CreationExtensions.m in Sources */,
+				AD3B442C125B7ABD00875655 /* CXMLDocument.m in Sources */,
+				AD3B442D125B7ABD00875655 /* CXMLDocument_PrivateExtensions.m in Sources */,
+				AD3B4437125B7AEA00875655 /* CXMLNode_CreationExtensions.m in Sources */,
+				AD3B4438125B7AEA00875655 /* CXMLDocument_CreationExtensions.m in Sources */,
+				AD3B443B125B7AF900875655 /* CTidy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,7 +512,7 @@
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = Alert;
-				SDKROOT = iphoneos2.1;
+				SDKROOT = iphoneos4.1;
 			};
 			name = Debug;
 		};
@@ -505,7 +531,7 @@
 				);
 				PRODUCT_NAME = Alert;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "06861CED-6297-4154-AB3B-FB1D7BBE3232";
-				SDKROOT = iphoneos2.1;
+				SDKROOT = iphoneos4.1;
 			};
 			name = Release;
 		};
@@ -522,7 +548,7 @@
 				OTHER_CFLAGS = "-DDEBUG";
 				OTHER_LDFLAGS = "-lxml2";
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.0;
+				SDKROOT = iphoneos4.1;
 			};
 			name = Debug;
 		};
@@ -537,7 +563,7 @@
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				OTHER_LDFLAGS = "-lxml2";
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.0;
+				SDKROOT = iphoneos4.1;
 			};
 			name = Release;
 		};
