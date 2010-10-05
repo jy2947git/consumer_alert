@@ -1,13 +1,19 @@
-consumer_alert is a iPhone application to track the consumer products recall information from multiple Federal government agencies.
+consumer_alert is an iPhone application to track the consumer products recall information from multiple Federal government agencies.
+As part of e-government initiative the Federal government has been pushing all the agencies to publish more information online, for example, weather data, trade data etc. Some of them are prarticularly important for consumers, especially some re-call information.
+
+More information can be found at http://www.data.gov/
+
+(for available goverment RSS feeds, check http://www.usa.gov/Topics/Reference_Shelf/Libraries/RSS_Library.shtml)
 
 Technically this application is a RSS feed reader speciallized for some government data feeds, including
-	National Highway Traffic Safety Administration (NHTSA)
+1, National Highway Traffic Safety Administration (NHTSA)
 	http://www-odi.nhtsa.dot.gov/rss/feeds/rss_recalls_C.xml
 	http://www-odi.nhtsa.dot.gov/rss/feeds/rss_recalls_T.xml
 	http://www-odi.nhtsa.dot.gov/rss/feeds/rss_recalls_V.xml
-	Food and Drug Administration (FDA)
+2, Food and Drug Administration (FDA)
 	http://www.fda.gov/AboutFDA/ContactFDA/StayInformed/RSSFeeds/Recalls/rss.xml
-	Consumer Product Safety Commission (CPSC)
+
+3, Consumer Product Safety Commission (CPSC)
 	//http://www.cpsc.gov/cpscpub/prerel/prerel.xml
 	http://www.cpsc.gov/cpscpub/prerel/prerelchild.xml
 	http://www.cpsc.gov/cpscpub/prerel/prerelhousehold.xml
@@ -18,7 +24,16 @@ The RSS reader relies on the Objective-C XML parser "touchXML" (information can 
 Note: the latest touchXML source code has already been placed under "classes". No need to download any more.
 
 This application is meant to be published as free app in Apple appstore, and it has support of two types of advertisement mechanism:
-the first is through AdMob (the integration was before Google aquired Admob, so it might be need to updated. Check the "ProgrammaicAdViewController")
+the first is through AdMob (the integration was before Google aquired Admob, so it might need to be updated. Check the "ProgrammaicAdViewController")
 In this project, we also are experimenting our own advertisement publishing. The purpose is to promote other products and as well develop our own location based commercial ads-service.
 
+Besides re-call feeds from above agencies, this application also track the "Pueblo" system for consumer news and money alerts:
+http://www.pueblo.gsa.gov/rss/consumer.xml?WT.rss_f=Consumer+News+From+Pueblo&WT.rss_ev=s
+http://www.pueblo.gsa.gov/rss/money.xml?WT.rss_f=Money+News+From+Pueblo&WT.rss_ev=s
+
+The UI is devided to 3 tabs - "Re-call", "consumer-info", and "money-info". Each tab screen is controlled by its own view-controller and all of them is extended from the same parent view controller "AbstractBaseRssTableViewController"
+When user clicks any item in the table-view, the BaseItemDetailViewController will be called to present the RSS text or Web view.
+The local ad-publishing is implemented in the "focaplo-ad" group, and the "Admob" is in the "Admob-view". To switch between the 2 ads network, check the code in the BaseItemDetailViewController (we only display ads in the detail screen)
+
+ 
 	

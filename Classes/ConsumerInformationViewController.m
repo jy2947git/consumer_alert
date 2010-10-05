@@ -11,7 +11,7 @@
 
 @implementation ConsumerInformationViewController
 - (void)viewDidLoad {
-	//National Highway Traffic Safety Administration
+	//
 	[self.urls addObject:@"http://www.pueblo.gsa.gov/rss/consumer.xml?WT.rss_f=Consumer+News+From+Pueblo&WT.rss_ev=s"];[self.tags addObject:@"PUEBLO-Consumer"];
 //	[self.urls addObject:@"http://www.cpsc.gov/cpscpub/prerel/prerelchild.xml"];[self.tags addObject:@"CPSC-child"];
 //	[self.urls addObject:@"http://www.cpsc.gov/cpscpub/prerel/prerelhousehold.xml"];[self.tags addObject:@"CPSC-household"];
