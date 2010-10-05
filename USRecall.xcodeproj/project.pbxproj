@@ -62,6 +62,7 @@
 		AD3B4437125B7AEA00875655 /* CXMLNode_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3B4433125B7AEA00875655 /* CXMLNode_CreationExtensions.m */; };
 		AD3B4438125B7AEA00875655 /* CXMLDocument_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3B4435125B7AEA00875655 /* CXMLDocument_CreationExtensions.m */; };
 		AD3B443B125B7AF900875655 /* CTidy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3B4439125B7AF900875655 /* CTidy.m */; };
+		AD3B4451125B7BCD00875655 /* README in Resources */ = {isa = PBXBuildFile; fileRef = AD3B4450125B7BCD00875655 /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -151,6 +152,7 @@
 		AD3B4436125B7AEA00875655 /* CXMLDocument_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_CreationExtensions.h; sourceTree = "<group>"; };
 		AD3B4439125B7AF900875655 /* CTidy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTidy.m; sourceTree = "<group>"; };
 		AD3B443A125B7AF900875655 /* CTidy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTidy.h; sourceTree = "<group>"; };
+		AD3B4450125B7BCD00875655 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +211,7 @@
 				AC7E873310233FE10030598D /* AddressBook.framework */,
 				AC7E873510233FE10030598D /* QuartzCore.framework */,
 				AC7E8BA3102785570030598D /* MediaPlayer.framework */,
+				AD3B4450125B7BCD00875655 /* README */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -456,6 +459,7 @@
 				AC7E87B4102356400030598D /* Icon.png in Resources */,
 				AC7E89501027307D0030598D /* icon-small-wd.jpg in Resources */,
 				AC7E8BCA102786750030598D /* Movie.m4v in Resources */,
+				AD3B4451125B7BCD00875655 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

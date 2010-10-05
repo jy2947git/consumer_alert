@@ -154,7 +154,7 @@ const CGFloat pageStartY=1.0;
 //	 [self.view addSubview:myAd];
 //	 [myAd release];
 	
-	
+	//below code can be used to switch between the AdMob and the local-ad
 	FocaploAdViewController *myAdController = [FocaploAdViewController instance:@"focaplo-consumer-alert"];
 	myAdController.view.frame=CGRectMake(0, self.view.frame.size.height-49-48, self.view.frame.size.width, 48);
 	[self.view addSubview:myAdController.view];
@@ -163,7 +163,7 @@ const CGFloat pageStartY=1.0;
 	// Request an ad
 	
 	//adMobAd = [AdMobView requestAdWithDelegate:self]; // start a new ad request
-	//[adMobAd retain]; // this will be released when it loads (or fails to load)
+//	[adMobAd retain]; // this will be released when it loads (or fails to load)
 	
 	//NSLog(@"finally %f %f %f %f",self.view.frame.origin.x, self.view.frame.origin.y, self.view.frame.size.width, self.view.frame.size.height);
 
