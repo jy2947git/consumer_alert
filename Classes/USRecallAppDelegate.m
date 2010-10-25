@@ -57,7 +57,7 @@
 	self.controllerTabBar.selectedIndex=0;
 	[window addSubview:self.controllerTabBar.view];
 	//instantiate the singleton and pre-fetch ads
-	FocaploAdViewController *myAdController = [FocaploAdViewController instance:@"focaplo-consumer-alert"];
+	//FocaploAdViewController *myAdController = [FocaploAdViewController instance:@"focaplo-consumer-alert"];
 	
     [window makeKeyAndVisible];
 	[r release];

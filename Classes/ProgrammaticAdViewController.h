@@ -9,12 +9,11 @@
 #define AD_REFRESH_PERIOD 60.0 // display fresh ads once per minute
 
 #import <UIKit/UIKit.h>
-#import "AdMobDelegateProtocol.h"
 
-@class AdMobView;
 
-@interface ProgrammaticAdViewController : UIViewController<AdMobDelegate> {
-  AdMobView *adMobAd;
+
+@interface ProgrammaticAdViewController : UIViewController {
+
   NSTimer *refreshTimer;
 }
 

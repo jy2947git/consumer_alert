@@ -9,9 +9,7 @@
 #import "BaseItemDetailViewController.h"
 
 #import "GlobalHeader.h"
-#import "FocaploAdView.h"
-#import "AdMobView.h"
-#import "FocaploAdViewController.h"
+#import "SHK.h"
 
 @implementation BaseItemDetailViewController
 
@@ -30,9 +28,9 @@ const CGFloat pageStartY=1.0;
 		NSMutableArray *arr = [[NSMutableArray alloc] init];
 		self.views=arr;
 		[arr release];
-		UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"email.png"] style:UIBarButtonItemStyleBordered target:self action:@selector(email:)];
-		self.navigationItem.rightBarButtonItem=rightButton;
-		[rightButton release];
+		//UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"email.png"] style:UIBarButtonItemStyleBordered target:self action:@selector(email:)];
+//		self.navigationItem.rightBarButtonItem=rightButton;
+//		[rightButton release];
 	}
 	return self;
 }
@@ -155,10 +153,10 @@ const CGFloat pageStartY=1.0;
 //	 [myAd release];
 	
 	//below code can be used to switch between the AdMob and the local-ad
-	FocaploAdViewController *myAdController = [FocaploAdViewController instance:@"focaplo-consumer-alert"];
-	myAdController.view.frame=CGRectMake(0, self.view.frame.size.height-49-48, self.view.frame.size.width, 48);
-	[self.view addSubview:myAdController.view];
-	[myAdController startToDisplayAds:nil];
+//	FocaploAdViewController *myAdController = [FocaploAdViewController instance:@"focaplo-consumer-alert"];
+//	myAdController.view.frame=CGRectMake(0, self.view.frame.size.height-49-48, self.view.frame.size.width, 48);
+//	[self.view addSubview:myAdController.view];
+//	[myAdController startToDisplayAds:nil];
 	//admob
 	// Request an ad
 	
@@ -167,7 +165,14 @@ const CGFloat pageStartY=1.0;
 	
 	//NSLog(@"finally %f %f %f %f",self.view.frame.origin.x, self.view.frame.origin.y, self.view.frame.size.width, self.view.frame.size.height);
 
-	
+	//no more ad, replace with share-kit to add the social network sharing
+	UIButton *sharingButton = [[UIButton alloc] initWithFrame:CGRectMake(0, self.view.frame.size.height-49-48-40, self.view.frame.size.width, 48)];
+	[sharingButton setTitle:@"Share" forState:UIControlStateNormal];
+	[sharingButton setTitle:@"Share" forState:UIControlStateHighlighted];
+	[sharingButton setBackgroundColor:[UIColor blueColor]];
+	[sharingButton addTarget:self action:@selector(sharingButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+	[self.view addSubview:sharingButton];
+	[sharingButton release];
 }
 
 -(void)loadView{
@@ -262,7 +267,7 @@ const CGFloat pageStartY=1.0;
 	if ([v isKindOfClass:[UIWebView class]]){
 		if(v.tag < 300){
 		//web view not loaded yet
-			[self loadUrl:[self.element valueForKey:@"link"] toWebView:v];
+			[self loadUrl:[self.element valueForKey:@"link"] toWebView:(UIWebView*)v];
 			v.tag=300+page;
 		}
 	}
@@ -311,4 +316,16 @@ const CGFloat pageStartY=1.0;
 	[err release];
 }
 
+- (void)sharingButtonPressed:(id)sender{
+	DebugLog(@"sharing ...");
+	// Create the item to share (in this example, a url)
+	NSURL *url = [NSURL URLWithString:[element valueForKey:@"link"]];
+	SHKItem *item = [SHKItem URL:url title:[NSString stringWithFormat:@"It is recalled!!!!"]];
+	
+	// Get the ShareKit action sheet
+	SHKActionSheet *actionSheet = [SHKActionSheet actionSheetForItem:item];
+	
+	// Display the action sheet
+	[actionSheet showFromToolbar:self.navigationController.toolbar];
+}
 @end

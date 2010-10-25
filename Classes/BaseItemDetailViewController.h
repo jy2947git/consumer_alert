@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ProgrammaticAdViewController.h"
 
-@interface BaseItemDetailViewController : ProgrammaticAdViewController <UIScrollViewDelegate, UIWebViewDelegate> {
+@interface BaseItemDetailViewController :UIViewController <UIScrollViewDelegate, UIWebViewDelegate> {
 
 	NSDictionary *element;
 
